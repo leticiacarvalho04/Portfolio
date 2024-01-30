@@ -1,0 +1,28 @@
+.text-center.pt-4 {
+    width: 9cm;
+    margin: 0; 
+}
+
+.text-center {
+    margin-bottom: 3%; 
+  }
+
+.text-center.pt-4 a {
+    color: inherit;
+}
+
+.container {
+    width: 100%;
+}
+
+footer {
+    padding-right: 0;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div.container {
+    width: 100%;
+}

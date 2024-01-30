@@ -1,0 +1,25 @@
+h1,h5{
+    margin-bottom: 3%;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card-wrapper {
+    flex: 1 0 calc(33.33% - 8%); /* Ajusta a largura e o espaçamento */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    max-width: calc(33.33% - 5%); /* Ajusta a largura máxima */
+  }
+  
+  .card {
+    width: 100%;
+    margin-bottom: 20px; /* Espaçamento inferior do card */
+  }
+  
+  .card-wrapper:nth-child(3n) {
+    margin-right: 0; /* Remove a margem à direita do último card de cada linha */
+  }

@@ -1,0 +1,82 @@
+/* CSS para o body */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.content {
+    width: 100%;
+    max-width: 800px; 
+    padding: 20px;
+}
+  
+  .escolaridade,
+  .cursos,
+  .projetos {
+    margin-bottom: 30px;
+    width: 70vw;
+  }
+  
+  .pessoal {
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  .colunas {
+    display: flex;
+    justify-content: center; /* Centraliza as colunas horizontalmente */
+    margin-top: 20px; /* Espaçamento entre o h2 e as colunas */
+  }
+  
+  .coluna1, .coluna2{
+    flex: 1;
+    margin: 0 5px; /* Espaçamento entre as colunas */
+    max-width: 50%; /* Largura máxima das colunas */
+    text-align: left; /* Ajusta o texto para a esquerda */
+  }
+  
+  .coluna2 .imagens {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%; /* Ajuste a largura conforme necessário */
+    margin: auto;
+  }
+  
+  .coluna2 .imagens .imagem-container {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .coluna2 .imagens .imagem-container a {
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+  
+  .coluna2 .imagens .imagem-container img {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin-bottom: 5px; 
+  }
+  
+  .coluna2 .imagens .imagem-container p {
+    margin: 0; 
+  }
+  
+  .imagem-carousel {
+    width: 200px;
+    height: auto; 
+}
+  
+  .mais i{
+    color: gray;
+  }

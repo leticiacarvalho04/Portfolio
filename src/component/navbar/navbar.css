@@ -1,0 +1,17 @@
+.logo{
+  border-radius: 60%; 
+  width: 50px; 
+  margin-left: 10%; 
+  margin-right: 0;
+}
+
+/* Remova o espaçamento lateral padrão do Bootstrap */
+nav.navbar {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* Garanta que o conteúdo do navbar ocupe toda a largura */
+div.collapse.navbar-collapse {
+  width: 100%;
+}
