@@ -71,6 +71,9 @@ export default function Home() {
       <blockquote className='quote'>
         <p>Todas as pessoas grandes foram um dia crianças - mas poucas se lembram disso.</p>
       </blockquote>
+      <div className='ass'>
+        <i><p>- O Pequeno Príncipe</p></i>
+      </div>
 
     </>
   );
