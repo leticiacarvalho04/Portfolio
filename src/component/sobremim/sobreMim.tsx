@@ -35,8 +35,8 @@ export default function SobreMim(){
     return(
         <>
             <Navbar />
-            <div className="container">
-                <div className="content">
+            <div className="container3">
+                <div className="content3">
                     <h1>Acadêmico</h1>
                     <hr />
                     <div className="escolaridade">
@@ -112,7 +112,7 @@ export default function SobreMim(){
                                                 <p>Acesse <u>aqui</u></p>
                                             </a>
                                         </div>
-                                        <div className="imagem-container">
+                                        <div className="imagem-container2">
                                             <a href="https://open.spotify.com/playlist/2Fgoq3r1sVrzOySlRvtV2h?si=6e6899770e854207" target="_blank">
                                                 <img src="/imgs/playlist2.png" alt="Imagem 2" />
                                                 <p>Acesse <u>aqui</u></p>

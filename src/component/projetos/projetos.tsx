@@ -71,7 +71,7 @@ export default function Projetos(){
             sobre:`Este projeto tem por objetivo apresentar todos os trabalhos desenvolvidos por mim ao longo do período da fatec, 
             além de contar com algumas informações pessoais e acadêmicas.`,
             technologies:[faReact,TypeScriptIcon, faHtml5,faCss3Alt],
-            link:'https://github.com/leticiacarvalho04/Portfolio-Atualizado'
+            link:'https://github.com/leticiacarvalho04/Portfolio'
         },
         {
             title: 'Grupo World Beauty',
@@ -108,8 +108,8 @@ export default function Projetos(){
     return(
         <>
             <Navbar />
-            <div className='container'>
-                <div className='content'>
+            <div className='container1'>
+                <div className='content1'>
                     <div className="projetos">
                             <h1>Projetos</h1>
                             <h5>Bem vindo à página de projetos! Aqui você poderá encontrar todos os projetos realizados por mim até agora.</h5>

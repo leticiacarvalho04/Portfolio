@@ -2,6 +2,13 @@
     width: 9cm;
     margin: 0; 
 }
+.custom-footer {
+    display: flex;
+    border-top: 3px solid #dcdcdc;
+    justify-content: center;
+    align-items: center;
+}
+/*style={{backgroundColor:"#D3D3D3"}} */
 
 .text-center {
     margin-bottom: 3%; 

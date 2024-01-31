@@ -6,20 +6,24 @@ body {
     padding: 0;
 }
 
-.container {
+.container3 {
     display: flex;
     flex-direction: column;
     text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 5%;
 }
 
-.content {
+.content3 {
+  margin-top: 5%;
     width: 100%;
     max-width: 800px; 
-    padding: 20px;
 }
   
   .escolaridade,
-  .cursos,
+  .pessoal,
   .projetos {
     margin-bottom: 30px;
     width: 70vw;
@@ -27,6 +31,11 @@ body {
   
   .pessoal {
     text-align: center; /* Centraliza o texto */
+  }
+
+  .pessoal h2{
+    text-align: center;
+    margin-top: 3%;
   }
   
   .colunas {
@@ -41,35 +50,62 @@ body {
     max-width: 50%; /* Largura máxima das colunas */
     text-align: left; /* Ajusta o texto para a esquerda */
   }
+
+  .coluna2 h2{
+    margin-bottom: 5%;
+    margin-top: 0;
+  }
   
   .coluna2 .imagens {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    width: 80%; /* Ajuste a largura conforme necessário */
+    width: 80%; 
     margin: auto;
   }
-  
+
   .coluna2 .imagens .imagem-container {
     text-align: center;
-    margin: 10px;
-  }
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
   
-  .coluna2 .imagens .imagem-container a {
-    text-decoration: none;
-    color: black;
-    display: block;
+  .coluna2 .imagens .imagem-container2 {
+    text-align: center;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .coluna2 .imagens .imagem-container a,.coluna2 .imagens .imagem-container2 a {
+      text-decoration: none;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
   }
+  .coluna2 .imagens .imagem-container img,.coluna2 .imagens .imagem-container2 img{
+    margin-left: 0%;
+}
   
-  .coluna2 .imagens .imagem-container img {
+  .coluna2 .imagens .imagem-container img,.coluna2 .imagens .imagem-container2 img {
     width: 180px;
     height: auto;
     display: block;
     margin-bottom: 5px; 
   }
   
-  .coluna2 .imagens .imagem-container p {
+  .coluna2 .imagens .imagem-container p,.coluna2 .imagens .imagem-container2 p {
     margin: 0; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   
   .imagem-carousel {
