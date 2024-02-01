@@ -15,3 +15,10 @@ nav.navbar {
 div.collapse.navbar-collapse {
   width: 100%;
 }
+
+@media (max-width: 600px) {
+  .navbar-collapse.custom-collapse {
+    justify-content: center;
+    text-align: center;
+  }
+}

@@ -6,9 +6,8 @@ import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Home from '../home/home';
 import Footer from '../footer/footer';
-import Navbar from '../navbar/navbar';
+import Header from '../navbar/navbar';
 
 interface Project {
     title: string;
@@ -107,7 +106,7 @@ export default function Projetos(){
 
     return(
         <>
-            <Navbar />
+            <Header />
             <div className='container1'>
                 <div className='content1'>
                     <div className="projetos">

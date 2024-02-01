@@ -2,11 +2,11 @@ import './sobreMim.css'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { useEffect, useRef, useState } from 'react';
-import Navbar from "../navbar/navbar";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from "react-slick";
 import Footer from '../footer/footer';
+import Header from '../navbar/navbar';
 
 export default function SobreMim(){
     const sliderRef = useRef<Slider>(null);
@@ -34,7 +34,7 @@ export default function SobreMim(){
 
     return(
         <>
-            <Navbar />
+            <Header />
             <div className="container3">
                 <div className="content3">
                     <h1>Acadêmico</h1>
@@ -85,7 +85,7 @@ export default function SobreMim(){
                                     </ul>
                                 </div>
 
-                                <div className="Filmes-series">
+                                <div className="filmes-series">
                                     <h3>Filmes e séries</h3>
                                     <ul>
                                         <li>Gilmore Girls</li>

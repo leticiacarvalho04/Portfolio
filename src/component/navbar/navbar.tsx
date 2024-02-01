@@ -1,33 +1,23 @@
 import React from 'react';
+import { Navbar, Nav } from 'react-bootstrap';
 import './navbar.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-export default class Navbar extends React.Component {
-  render() {
+export default function Header() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="/">
+      <Navbar collapseOnSelect expand="lg" bg="light" variant="light" >
+        <Navbar.Brand href="/">
           <img src="/imgs/logo.jpg" alt="Seu Logo" className="logo"/>
-        </a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item active">
-              <a className="nav-link" href="/">Início <span className="sr-only">(current)</span></a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/sobreMim">Sobre Mim</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/projetos">Projetos</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/contato">Contato</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav" className="custom-collapse">
+          <Nav className="ml-auto custom-nav">
+            <Nav.Link href="/">Início</Nav.Link>
+            <Nav.Link href="/sobreMim">Sobre Mim</Nav.Link>
+            <Nav.Link href="/projetos">Projetos</Nav.Link>
+            <Nav.Link href="/contato">Contato</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     );
   }
-}

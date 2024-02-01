@@ -1,12 +1,12 @@
 import React from 'react';
 import './contatos.css';
-import Navbar from '../navbar/navbar';
 import Footer from '../footer/footer';
+import Header from '../navbar/navbar';
 
 export default function Contatos(){
     return(
         <>
-            <Navbar />
+            <Header />
             <div className="container2">
                 <h1>Contato</h1>
                 <p>Você pode entrar em contato comigo através das minhas redes sociais ou do meu email:</p>

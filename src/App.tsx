@@ -1,14 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './component/navbar/navbar';
 import Home from './component/home/home';
 import Footer from './component/footer/footer';
+import Header from './component/navbar/navbar';
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Header />
       <div>
         <Home />
       </div>

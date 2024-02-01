@@ -5,14 +5,13 @@
   height: 550px;
   display: flex;
   align-items: center;
-  width: 100%; /* Defina a largura para 100% */
+  width: 100%;
 }
 
-/* Se desejar manter algum espaçamento interno, você pode adicionar padding diretamente em elementos internos conforme necessário. */
 .text-container {
   display: flex;
   flex-direction: column;
-  padding: 0 8%; /* Adicione padding interno conforme necessário */
+  padding: 0 8%;
 }
 
 h1 {
@@ -78,9 +77,66 @@ h1 {
   justify-content: center;
 }
 
-
 .ass{
   padding-left: 20px; 
   margin-left: 148px;
   margin-bottom: 4%;
+}
+
+@media screen and (max-width: 600px){
+  .background{
+    display: flex;
+    flex-wrap: wrap;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-container{
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-pic{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10%;
+  }
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .colunash{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .coluna1{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .coluna2 img{
+    margin: 0;
+    padding: 0;
+    width: 250px;
+  }
+
+  .quote{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 5%;
+  }
 }

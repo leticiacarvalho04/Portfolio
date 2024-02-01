@@ -116,3 +116,89 @@ body {
   .mais i{
     color: gray;
   }
+
+  @media screen and (max-width:600px) {
+    .container3{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 2%;
+      margin-left: 7%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .pessoal{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .colunas{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      margin-bottom: 3%;
+    }
+
+    .hobbies,.filmes-series{
+      width: 100vw;
+      margin-bottom: 3%;
+    }
+    .hobbies h3,.filmes-series h3{
+      width: 100vw;
+      margin-bottom: 4%;
+    }
+  
+    .coluna1{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 2%;
+    }
+
+    .coluna2{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: auto;
+      padding: auto;
+      margin-bottom: 5%;
+    }
+
+    .coluna2 h2{
+      width: 100vw;
+    }
+
+    .coluna2 .imagens{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+    }
+
+    .imagem-carousel {
+      width: 90%;
+    }
+
+    .livros{
+      margin-bottom:5%;
+    }
+
+    .livros h1{
+      margin-bottom:5%;
+    }
+
+    .mais{
+      margin-bottom: 10%;
+    }
+
+  }
