@@ -133,10 +133,11 @@ h1 {
   }
 
   .quote{
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     font-size: 30px;
-    margin-left: 5%;
+    margin: 0 10%;
   }
 }

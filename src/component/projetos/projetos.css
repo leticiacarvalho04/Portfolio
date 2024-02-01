@@ -34,7 +34,7 @@ h1,h5{
   .card-wrapper:nth-child(3n) {
     margin-right: 0;
   }
-
+  
   @media screen and (max-width:600px) {
     .container1,.content1, .projetos{
       display: flex;
@@ -69,7 +69,6 @@ h1,h5{
     .card-wrapper:nth-child(3n) {
       margin-right: 0;
     }
-    
     @media screen and (max-width:600px) {
       .container1,.content1, .projetos{
         display: flex;

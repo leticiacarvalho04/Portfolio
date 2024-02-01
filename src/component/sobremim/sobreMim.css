@@ -119,12 +119,28 @@ body {
 
   @media screen and (max-width:600px) {
     .container3{
+      width: 90%;
       display: flex;
       flex-wrap: wrap;
       margin: 2%;
       margin-left: 7%;
       justify-content: center;
       align-items: center;
+      overflow:hidden;
+    }
+
+    .content3{
+      width: 100%;
+    }
+
+    .escolaridade{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    .cursos{
+      width: 100%;
     }
 
     .pessoal{
@@ -133,7 +149,9 @@ body {
       justify-content: center;
       align-items: center;
       text-align: center;
+      width: 100%;
     }
+
     .colunas{
       display: flex;
       flex-wrap: wrap;
@@ -145,11 +163,11 @@ body {
     }
 
     .hobbies,.filmes-series{
-      width: 100vw;
+      width: 130%;
       margin-bottom: 3%;
     }
     .hobbies h3,.filmes-series h3{
-      width: 100vw;
+      width: 100%;
       margin-bottom: 4%;
     }
   
@@ -157,11 +175,11 @@ body {
       width: 100%;
       margin: 0;
       padding: 0;
-      margin-bottom: 2%;
+      margin-bottom: 5%;
     }
 
     .coluna2{
-      width: 100vw;
+      width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -169,24 +187,40 @@ body {
       text-align: center;
       margin: auto;
       padding: auto;
-      margin-bottom: 5%;
     }
 
     .coluna2 h2{
       width: 100vw;
     }
 
-    .coluna2 .imagens{
+    .coluna2 .imagens {
       display: flex;
-      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      padding: auto;
+    }
+
+    .coluna2 .imagens .imagem-container2, .coluna2 .imagens .imagem-container {
+      display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
-      width: 100%;
+      margin: 5% 0;
+    }
+
+    .coluna2 .imagens .imagem-container2 img, .coluna2 .imagens .imagem-container img{
+      width: 40vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: auto;
+      margin: auto;
     }
 
     .imagem-carousel {
-      width: 90%;
+      width: 85%;
     }
 
     .livros{

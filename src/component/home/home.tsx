@@ -7,7 +7,7 @@ export default function Home() {
   const [index, setIndex] = useState(0);
   const [currentWord, setCurrentWord] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
-  const words = ['apaixonada por livros', 'programadora', 'desenvolvedora', 'apaixonada por cultura'];
+  const words = ['amo ler', 'sou programadora', 'sou desenvolvedora', 'amo aprender'];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -25,7 +25,7 @@ export default function Home() {
           setCurrentWord((prevWord) => prevWord.slice(0, -1));
         }
       }
-    }, 200);
+    }, 150);
 
     return () => clearInterval(interval);
   }, [index, currentWord, isDeleting]);
@@ -37,7 +37,7 @@ export default function Home() {
           <h1>Bem-vindo ao meu portfólio!</h1>
           <h2>Meu nome é Letícia</h2>
           <h3>
-            E eu sou <span className="palavras">{currentWord}</span>
+            E eu <span className="palavras">{currentWord}</span>
           </h3>
         </div>
         <img src="/imgs/eu.jpg" alt="Profile" className="profile-pic" />
