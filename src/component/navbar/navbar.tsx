@@ -9,7 +9,7 @@ export default function Header() {
         <Navbar.Brand href="/">
           <img src="/imgs/logo.jpg" alt="Seu Logo" className="logo"/>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className='custom-toggle'/>
         <Navbar.Collapse id="responsive-navbar-nav" className="custom-collapse">
           <Nav className="ml-auto custom-nav">
             <Nav.Link href="/">Início</Nav.Link>

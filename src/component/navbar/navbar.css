@@ -21,4 +21,8 @@ div.collapse.navbar-collapse {
     justify-content: center;
     text-align: center;
   }
+
+  .custom-toggle{
+    margin-right: 3%;
+  }
 }
