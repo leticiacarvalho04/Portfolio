@@ -15,12 +15,12 @@ export default function SobreMim(){
 
     const settings = {
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 10000,
+        autoplaySpeed: 2000,
         afterChange: (current: number) => setCurrentSlide(current)
     };
 
