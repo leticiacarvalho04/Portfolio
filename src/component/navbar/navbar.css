@@ -25,4 +25,8 @@ div.collapse.navbar-collapse {
   .custom-toggle{
     margin-right: 3%;
   }
+
+  .logo{
+    margin-left: 3%;
+  }
 }
