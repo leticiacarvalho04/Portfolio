@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './projetos.css';
-import { faCss3Alt, faHtml5, faJs, faNodeJs, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
-import { Mysql, TypeScriptIcon } from './icons';
+import { faCss3Alt, faHtml5, faJava, faJs, faNodeJs, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
+import { Mysql, SpringBootIcon, TypeScriptIcon } from './icons';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -62,6 +62,21 @@ export default function Projetos(){
             acesso à soluções de seus problemas sobre Internet, de forma mais rápida e eficaz.` ,
             technologies: [faReact, faNodeJs, faHtml5, faCss3Alt,TypeScriptIcon,Mysql],
             link:'https://github.com/Equipe-CodeLand/API-2023.2'
+        },
+        {
+            title: "API 3° semestre - Youtan",
+            image: "/imgs/projetos/youtan.png",
+            description: "API do 3° semestre de DSM de 2024 sobre um sistema de gerenciamento de ativos",
+            sobre: `Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 3° semestre de Desenvolvimento de 
+            Software Multiplataforma (DSM). O objetivo do projeto é o desenvlvimento de uma solução para o gerenciamento de ativos 
+            de uma empresa. A plataforma deve conter informações detalhadas sobre ativos, cadastro e histórico de manutenções dos 
+            ativos e dashboard com indicativos relevantes sobre os ativos.
+            \n
+            O objetivo do projeto é o desenvovimento de uma solução para o gerenciamento de ativos de uma empresa. A plataforma deve 
+            conter informações detalhadas sobre ativos, cadastro e histórico de manutenções dos ativos e dashboard com indicativos 
+            relevantes sobre os ativos.` ,
+            technologies: [faReact, faJava, SpringBootIcon, faNodeJs, faHtml5, faCss3Alt,TypeScriptIcon,Mysql],
+            link:'https://github.com/Equipe-CodeLand/API-2024.1'
         },
         {
             title: 'Meu Portfólio',
