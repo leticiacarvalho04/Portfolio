@@ -25,8 +25,8 @@ export const Mysql = () => (
     xmlns="http://www.w3.org/2000/svg"
     x="0px"
     y="0px"
-    width="100"
-    height="100"
+    width="100px"
+    height="100px"
     viewBox="0 0 50 50"
     style={{ fill: "currentColor" }}
   >
