@@ -16,6 +16,46 @@ div.collapse.navbar-collapse {
   width: 100%;
 }
 
+.darkMode{
+  display: flex;
+  flex-direction: row;
+  margin: 0 1%;
+  width: 100%;
+  right: 0;
+  justify-content: right;
+}
+
+.text-DarkMode{
+  display: flex;
+  font-size: small;
+  font-style: italic;
+  color: darkgray;
+  width: 10%;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  background-color: #f8f9fa; /* Cor clara padrão */
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilos para Navbar no modo escuro */
+.dark-mode .navbar {
+  background-color: #1a1919; 
+  color: #fff;
+}
+
+/* Ajustes específicos para os links da Navbar */
+.navbar .nav-link {
+  color: #000; /* Cor padrão dos links */
+  transition: color 0.3s;
+}
+
+.dark-mode .navbar .nav-link {
+  color: #fff; 
+}
+
 @media (max-width: 600px) {
   .navbar-collapse.custom-collapse {
     justify-content: center;

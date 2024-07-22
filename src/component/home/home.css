@@ -1,11 +1,16 @@
 .background {
-  background-image: url('../../../public/imgs/back.png');
+  background-image: url('C:\Users\letic\Documents\GitHub\Portfolio\public\imgs\back.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 550px;
   display: flex;
   align-items: center;
   width: 100%;
+  transition: background-image 0.3s;
+}
+
+.dark-mode .background {
+  background-image: url('C:\Users\letic\Documents\GitHub\Portfolio\public\imgs\back-dark.png');
 }
 
 .text-container {
@@ -14,12 +19,20 @@
   padding: 0 8%;
 }
 
+.dark-mode .text-container {
+  color: #1a1919;
+}
+
+.dark-mode .palavras{
+  color: #794278;
+}
+
 h1 {
   margin-top: 0; 
 }
 
 .profile-pic {
-  border-radius: 50%; /* Isso fará a imagem ficar arredondada */
+  border-radius: 50%;
   width: 350px; 
   height: 350px; 
   margin-left: 5%;

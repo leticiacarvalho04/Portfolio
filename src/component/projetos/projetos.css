@@ -19,6 +19,11 @@ padding: 0;
   justify-content: space-around;
 }
 
+.dark-mode .card {
+  background-color: #232222;
+  color: #fff;
+}
+
 .card-wrapper {
   flex: 1 0 calc(33.33% - 8%); /* Ajusta a largura e o espaçamento */
   margin-bottom: 20px;

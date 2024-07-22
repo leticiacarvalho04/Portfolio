@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import './home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 export default function Home() {
   const [index, setIndex] = useState(0);
   const [currentWord, setCurrentWord] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
+  const [darkMode, setDarkMode] = useState(false); // Adiciona estado para o modo escuro
   const words = ['amo ler', 'sou programadora', 'sou desenvolvedora', 'amo aprender'];
 
   useEffect(() => {
@@ -30,9 +30,22 @@ export default function Home() {
     return () => clearInterval(interval);
   }, [index, currentWord, isDeleting]);
 
+  useEffect(() => {
+    const handleDarkModeChange = (event: Event) => {
+      const darkModeEnabled = (event.target as HTMLBodyElement).classList.contains('dark-mode');
+      setDarkMode(darkModeEnabled);
+    };
+
+    window.addEventListener('themeChange', handleDarkModeChange);
+
+    return () => {
+      window.removeEventListener('themeChange', handleDarkModeChange);
+    };
+  }, []);
+
   return (
     <>
-      <div className="background">
+      <div className={`background ${darkMode ? 'dark-mode' : ''}`}>
         <div className="text-container">
           <h1>Bem-vindo ao meu portfólio!</h1>
           <h2>Meu nome é Letícia</h2>
@@ -63,7 +76,7 @@ export default function Home() {
             </p>
           </div>
           <div className='coluna2'>
-            <img src="/imgs/foto-profile.jpg"></img>
+            <img src="/imgs/foto-profile.jpg" alt="Profile" />
           </div>
         </div>
       </div>
@@ -74,7 +87,6 @@ export default function Home() {
       <div className='ass'>
         <i><p>- O Pequeno Príncipe</p></i>
       </div>
-
     </>
   );
 }

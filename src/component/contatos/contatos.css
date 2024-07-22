@@ -52,3 +52,12 @@ body {
   .redes a{
     margin-left: 5px;
   }
+
+  .redes img {
+    transition: filter 0.3s ease; /* Transição suave para mudanças */
+}
+
+/* Estilos para o modo escuro */
+.dark-mode .redes img {
+    filter: invert(1) grayscale(1) brightness(2); /* Altera as imagens para branco */
+}

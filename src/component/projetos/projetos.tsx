@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './projetos.css';
 import { faCss3Alt, faFigma, faGithub, faHtml5, faJava, faJira, faJs, faNodeJs, faPython, faReact, faSlack, faTrello } from '@fortawesome/free-brands-svg-icons';
-import { SiChartdotjs, SiFlask, SiPrisma, SiTaketwointeractivesoftware } from "react-icons/si";
+import { SiChartdotjs, SiFlask, SiPrisma } from "react-icons/si";
 import { Mysql, SpringBootIcon, TypeScriptIcon } from './icons';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';

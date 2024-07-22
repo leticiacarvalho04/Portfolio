@@ -8,11 +8,6 @@
     justify-content: center;
     align-items: center;
 }
-/*style={{backgroundColor:"#D3D3D3"}} */
-
-.text-center {
-    margin-bottom: 3%; 
-  }
 
 .text-center.pt-4 a {
     color: inherit;
@@ -27,7 +22,41 @@ footer {
     padding-left: 0;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center;    
+}
+
+.text-center.pt-3 {
+    margin-bottom: 3%;
+}
+
+.text-center.pt-3 a {
+    margin-left: 3%;
+}
+
+.dark-mode .text-body {
+    color: #fff !important;
+}
+
+.custom-footer {
+    background-color: #f8f9fa; /* Cor clara padrão */
+    color: #1a1919;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 1rem;
+}
+
+.dark-mode .custom-footer {
+    background-color: #1a1919; /* Cor escura */
+    color: #fff;
+}
+
+/* Estilos para os ícones sociais */
+.custom-footer .btn {
+    color: #1a1919; /* Cor padrão dos ícones */
+    transition: color 0.3s;
+}
+
+.dark-mode .custom-footer .btn {
+    color: #fff; /* Cor dos ícones em modo escuro */
 }
 
 div.container {
