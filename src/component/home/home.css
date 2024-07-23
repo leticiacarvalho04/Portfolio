@@ -1,5 +1,5 @@
 .background {
-  background-image: url('C:\Users\letic\Documents\GitHub\Portfolio\public\imgs\back.png');
+  background-image: url('../../../public/imgs/back.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 550px;
@@ -10,7 +10,7 @@
 }
 
 .dark-mode .background {
-  background-image: url('C:\Users\letic\Documents\GitHub\Portfolio\public\imgs\back-dark.png');
+  background-image: url('../../../public/imgs/back-dark.png');
 }
 
 .text-container {
