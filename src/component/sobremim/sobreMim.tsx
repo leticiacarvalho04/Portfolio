@@ -67,6 +67,15 @@ export default function SobreMim(){
                         </ul>
                     </div>
 
+                    <div className="profissional">
+                        <h3>Experiência profissional</h3>
+                        <ul>
+                            <li>
+                                Estágio: realizado na empresa Codex Utilities (2024-2025) - Sobre a Codex: <a href='https://codex.com.br/'>Acesse aqui para mais informações</a>
+                            </li>
+                        </ul>
+                    </div>
+
                     <div className="pessoal">
                         <h2>Pessoal</h2>
                         <div className="colunas">
@@ -136,34 +145,34 @@ export default function SobreMim(){
                                 <img className="imagem-carousel" src="/imgs/livros/é assim que começa.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/É Assim que Acaba.jpg" />
+                                <img className="imagem-carousel" src="/imgs/livros/É Assim que Acaba.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/A paciente silenciosa.jpg" />
+                                <img className="imagem-carousel" src="/imgs/livros/A paciente silenciosa.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/Luzes do Leste.jpg" />
+                                <img className="imagem-carousel" src="/imgs/livros/Luzes do Leste.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/Ondas do Oeste.jpg" />
+                                <img className="imagem-carousel" src="/imgs/livros/Ondas do Oeste.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/quatro tias e um casamento.jpg" />
+                                <img className="imagem-carousel" src="/imgs/livros/quatro tias e um casamento.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/A Hipótese do Amor.jpg" />
+                                <img className="imagem-carousel" src="/imgs/livros/A Hipótese do Amor.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/anne de green gables.jpg" />
+                                <img className="imagem-carousel" src="/imgs/livros/anne de green gables.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/O príncipe cruel capa.jpg" />
+                                <img className="imagem-carousel" src="/imgs/livros/O príncipe cruel capa.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/boneco de neve.jpg" />
+                                <img className="imagem-carousel" src="/imgs/livros/boneco de neve.jpg" alt="livro2" />
                             </div>
                             <div>
-                                <img className="imagem-carousel" src="/imgs/livros/O ódio que você semeia.jpg" />
+                                <img className="imagem-carousel" src="/imgs/livros/O ódio que você semeia.jpg" alt="livro2" />
                             </div>
                         </Slider>
                     </div>

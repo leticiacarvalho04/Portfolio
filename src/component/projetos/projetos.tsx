@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './projetos.css';
 import { faCss3Alt, faFigma, faGithub, faHtml5, faJava, faJira, faJs, faNodeJs, faPython, faReact, faSlack, faTrello } from '@fortawesome/free-brands-svg-icons';
-import { SiChartdotjs, SiFlask, SiPrisma } from "react-icons/si";
+import { SiChartdotjs, SiDocker, SiExpo, SiFirebase, SiFlask, SiPrisma } from "react-icons/si";
 import { Mysql, SpringBootIcon, TypeScriptIcon } from './icons';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
@@ -110,6 +110,21 @@ export default function Projetos(){
         
         },
         {
+            title: "API 4° semestre - Tecsus",
+            image: "/imgs/projetos/api-4semestre.png",
+            description: "API do 3° semestre de DSM de 2024 sobre um sistema de coleta de dados de uma estação metereológica",
+            sobre: `Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 4° semestre de Desenvolvimento de Software Multiplataforma (DSM). 
+            O objetivo do projeto é o desenvolvimento de um sistema de coleta de dados de estações meteorológicas. A plataforma deve receber as informações da estação metereológica e em caso de emergência mostrar uma notificação alertando a população.` ,
+            technologies: [faFigma, faJira, faPython, SiFirebase, SiDocker, faGithub, faReact,  faNodeJs, faHtml5, faCss3Alt,TypeScriptIcon],
+            link:'https://github.com/Equipe-CodeLand/API-2024.2',
+            hardSkil: ['Desenvolvimento Front-End em React, Node.js, HTML, CSS, TypeScript, Jest','Desenvolvimento do Back-End em TypeScript, Python, Firebase, Docker, Jest'],
+            softSkil: ['Trabalho em equipe', 'Comunicação', 'Proatividade', 'Autonomia', 'Entrega de Resultados','Adaptabilidade', 'Flexibilidade', 
+                'Organização e Planejamento', 'Inteligência Emocional'
+            ],
+            contribuicoesPessoais: `Neste projeto, atuei como membro da equipe de desenvolvimento, trabalhando tanto no Front-End quanto no Back-End. 
+            Minhas responsabilidades incluíram realizar o CRUD de usuários, auxiliar na estruturação dos códigos tanto no Back quanto no Front-End, além de também atuar na parte de testes para o DevOps do projeto, relizando testes de integração no front e no back.`
+        },
+        {
             title: 'Meu Portfólio',
             image:'/imgs/projetos/portfolio.png',
             description:'Meu portfólio pessoal',
@@ -168,6 +183,20 @@ export default function Projetos(){
             contribuicoesPessoais: `Este foi um projeto para a matéria de Técnicas de Programação II, ministrada pelo professor Gerson Penha, onde fui responsável por 
             todo o desenvolvimento do back-end do site. Foi uma ótima oportunidade para colocar em prática os conhecimentos adquiridos ao longo do curso e habilidades 
             socioemocionais, como : organização, autogestão e proatividade.`
+        },
+        {
+            title: 'LiFin',
+            image: '/imgs/projetos/lifin.png',
+            description: 'App mobile de finanças pessoais',
+            sobre: `LiFin é um aplicativo de finanças pessoais, projetado para tornar a gestão do dinheiro do usuário fácil e perspicaz. 
+                    Com uma interface elegante e recursos poderosos, o LiFin ajuda a rastrear despesas, gerenciar orçamentos e alcançar suas metas financeiras.`,
+            technologies: [faReact, TypeScriptIcon, SiFirebase, SiExpo],
+            link: 'https://github.com/leticiacarvalho04/LiFin',
+            hardSkil: ['Desenvolvimento em React Native', 'TypeScript', 'Firebase', 'Expo'],
+            softSkil: ['Proatividade', 'Organização e planejamento', 'Autonomia'],
+            contribuicoesPessoais: `Este foi um projeto desenvolvido para a disciplina de Dispositivos Móveis no 4° semestre da Fatec onde fui responsável por todo o desenvolvimento do aplicativo, desde a concepção da ideia até a implementação final. 
+            Utilizei React Native, TypeScript, Firebase e Expo para criar uma solução robusta e eficiente para a gestão de finanças pessoais. 
+            Foi uma excelente oportunidade para aprimorar minhas habilidades técnicas e socioemocionais, como organização, autogestão e proatividade.`
         },
         {
             title: 'Relógio',

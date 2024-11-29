@@ -9,6 +9,14 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false); // Adiciona estado para o modo escuro
   const words = ['amo ler', 'sou programadora', 'sou desenvolvedora', 'amo aprender'];
 
+  const idade = new Date().getFullYear() - 2004;
+
+  const dataInicio = new Date(2023, 0, 1); // Janeiro de 2023
+  const dataAtual = new Date();
+  
+  const mesesPassados = (dataAtual.getFullYear() - dataInicio.getFullYear()) * 12 + dataAtual.getMonth() - dataInicio.getMonth();
+  const semestreAtual = Math.floor(mesesPassados / 6) + 1;
+  
   useEffect(() => {
     const interval = setInterval(() => {
       if (!isDeleting) {
@@ -60,15 +68,16 @@ export default function Home() {
         <h2>Um pouco sobre mim</h2>
         <div className='colunash'>
           <div className='coluna1'>
-            <p>Olá! Me chamo Letícia, tenho 19 anos e sou apaixonada por desenvolvimento de software.</p>
+            <p>Olá! Me chamo Letícia, tenho {idade} anos e sou apaixonada por desenvolvimento de software.</p>
             <p>
-              Atualmente estudo na FATEC de São José dos Campos e estou no meu 3° semestre do curso de Desenvolvimento de Software Multiplataforma.
+              Atualmente estudo na FATEC de São José dos Campos e estou no meu {semestreAtual}° semestre do curso de Desenvolvimento de Software Multiplataforma.
               Neste curso, aprendi a criar aplicações web, mobile e desktop, utilizando diversas linguagens de programação, frameworks e ferramentas.
             </p>
             <p>
-              Apesar de não ter experiência profissional na área de desenvolvimento de software, tenho muita vontade de aprender e me desenvolver. Estou em
-              busca de uma oportunidade de estágio, onde possa colocar em prática os meus conhecimentos e adquirir novas habilidades, trabalhando em equipe e
-              seguindo as boas práticas de engenharia de software e metodologias ágeis.
+              Atualmente estagio na empresa Codex Utilities, uma empresa especializada em soluções tecnológicas para gestão de serviços públicos e utilidades. 
+              Na Codex Utilities, estou envolvida em projetos que visam otimizar a gestão de recursos como energia, utilizando tecnologias avançadas para 
+              monitoramento e análise de dados. Minha experiência na empresa tem sido extremamente enriquecedora, permitindo-me aplicar os conhecimentos adquiridos 
+              na faculdade em situações reais e desafiadoras, além de aprender novas técnicas e ferramentas que são amplamente utilizadas no mercado.
             </p>
             <p>
               O meu objetivo é me tornar uma desenvolvedora de software de alto nível, capaz de resolver problemas complexos e criar soluções inovadoras.
