@@ -186,7 +186,7 @@ export default function Projetos(){
         },
         {
             title: 'LiFin',
-            image: '/imgs/projetos/lifin.png',
+            image: '/imgs/projetos/Lifin.png',
             description: 'App mobile de finanças pessoais',
             sobre: `LiFin é um aplicativo de finanças pessoais, projetado para tornar a gestão do dinheiro do usuário fácil e perspicaz. 
                     Com uma interface elegante e recursos poderosos, o LiFin ajuda a rastrear despesas, gerenciar orçamentos e alcançar suas metas financeiras.`,
